@@ -10,7 +10,7 @@ cmake_policy(SET CMP0066 NEW) # use CMAKE_<LANG>_FLAGS_<BUILD_TYPE> for try_comp
 cmake_policy(SET CMP0056 NEW) # use CMAKE_EXE_LINKER_FLAGS in try_compile() in addition to CMAKE_<LANG>_FLAGS
 
 ################################
-# GEOSX
+# GEOSXtest
 ################################
 project( geosx LANGUAGES C CXX )
 include(GNUInstallDirs)
